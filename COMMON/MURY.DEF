@@ -1,0 +1,28 @@
+; mena jednotlivych typov murov      (max. 19 znakov na meno)
+; -------------------------------------------
+; 1.riadok: obranne cislo muru
+; 2.riadok: max. energia muru
+; 3.riadok: cislo ozvucenia zasahu a znicenia
+; -------------------------------------------
+
+; typ 0: kolova ohrada
+4
+100
+5
+
+; typ 1: zelezny plot
+6
+140
+6
+
+; typ 2: zelezobetonovy mur
+14
+240
+7
+
+; typ 3: rujny
+8
+160
+8
+
+

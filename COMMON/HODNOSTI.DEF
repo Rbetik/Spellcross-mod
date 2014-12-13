@@ -1,0 +1,21 @@
+; 1.parameter - hodnost (0 = porucik, 1 = nadporucik, 2 = kapitan, 3 = major,
+;                        4 = podplukovnik, 5 = plukovnik, 6 = general major,
+;                        7 = general porucik, 8 = armadny general)
+; 2.parameter - max. pocet stalych jednotiek, ktore hrac na danej
+;               : hodnosti moze mat (max. 32)
+; 3.parameter - pocet bojovych akcii velitela aby dosiahol danu hodnost
+; 4.parameter - skusenost aku musi mat hrac aby dosiahol danu hodnost
+; 5.parameter - max. pocet velitelov, ktorych moze hrac na danej hodnosti mat
+
+CommandersParameters {
+    DefineCommander(0,02,02,0,0)
+    DefineCommander(1,04,06,0,0)
+    DefineCommander(2,09,10,0,2)
+    DefineCommander(3,12,18,300,4)
+    DefineCommander(4,14,26,2550,6)
+    DefineCommander(5,18,36,5350,8)
+    DefineCommander(6,22,48,10000,10)
+    DefineCommander(7,26,66,16000,12)
+    DefineCommander(8,32,84,26000,14)
+}
+

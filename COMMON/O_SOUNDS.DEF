@@ -1,0 +1,57 @@
+;*******************************************************************************
+;*                    SUBOR URCUJUCI ZVUKY SPECIALNYCH OBJEKTOV                *
+;*******************************************************************************
+; 1.riadok -> zvuk zasahu
+; 2.riadok -> zvuk znicenia
+
+;[00] - TICHO
+#
+#
+
+;[01] - DREVENY MOST
+8-MOST3
+8-MOST2
+
+;[02] - KAMENNY MOST
+8-MOST6
+8-MOST7
+
+;[03] - BETONOVY MOST
+8-MOST6
+8-MOST7
+
+;[04] - SPECIALNY MOST
+#
+#
+
+;[05] - KOLOVY MUR
+8-MUR3
+8-MUR2
+
+;[06] - PLOT
+8-ZASAH2
+8-MUR0
+
+;[07] - ZELEZOBETONOVY MUR
+8-ZASAH3
+8-MUR1
+
+;[08] - RUJNY
+8-ZASAH2
+8-ZASAH4
+
+;[09] - STIT CHRAMU
+8-STIT1
+8-STIT0
+
+;[10] - RUSICKA
+8-RSCK1
+8-RSCK0
+
+;[11] - ELEMENT PORTALU
+8-PRTL4
+8-PRTL5
+
+;[12] - JASKYNA
+8-RSCK1
+8-RSCK0

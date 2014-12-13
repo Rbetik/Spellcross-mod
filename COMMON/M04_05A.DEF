@@ -1,0 +1,59 @@
+MissionData {
+    MissionMap(M04_05)
+    AddUnit(50,44,0844,0,3,WaitForContact,-)
+    AddUnit(51,42,0621,0,30,WaitForContact,-)
+    AddUnit(52,42,0759,0,80,WaitForContact,-)
+    AddUnit(53,42,0898,0,70,WaitForContact,-)
+    AddUnit(54,42,0992,0,20,WaitForContact,-)
+    AddUnit(55,42,0850,0,34,WaitForContact,-)
+    AddUnit(56,42,0897,0,89,WaitForContact,-)
+    AddUnit(57,42,0849,0,33,WaitForContact,-)
+    AddUnit(58,42,0896,0,63,WaitForContact,-)
+    AddUnit(59,42,0942,0,75,WaitForContact,-)
+    AddUnit(60,42,0443,0,44,WaitForContact,-)
+    AddUnit(61,42,0673,0,78,WaitForContact,-)
+    AddUnit(62,42,0536,0,90,WaitForContact,-)
+    AddUnit(63,42,0582,0,98,WaitForContact,-)
+    AddUnit(64,42,0721,0,33,WaitForContact,-)
+    AddUnit(65,42,0813,0,90,WaitForContact,-)
+    AddUnit(66,42,1638,0,44,WaitForContact,-)
+    AddUnit(67,42,1683,0,90,WaitForContact,-)
+    AddUnit(68,42,1681,0,55,WaitForContact,-)
+    AddUnit(69,44,1077,0,4,WaitForContact,-)
+    AddUnit(70,44,0400,0,1,WaitForContact,-)
+    AddUnit(71,44,1000,0,2,WaitForContact,-)
+    AddUnit(72,44,0765,0,2,WaitForContact,-)
+    AddMissionObjective(SaveUnit,48,Save the scientists)
+    AddSpecialEvent(SeePlace,0624,01,100%)
+    AddSpecialEvent(SeePlace,0624,02,100%)
+    AddSpecialEvent(SeePlace,0577,03,100%)
+    AddSpecialEvent(SeePlace,0577,04,100%)
+    AddStartSquare(3120,3121,3166,3167,3211,3213,3214,3257,3259,3260)
+    AddStartSquare(3303,3304,3306,3307,3348,3349,3350,3352,3353,3395)
+    AddStartSquare(3396,3397,3399,3400,3440,3441,3442,3443,3445,3486)
+    AddStartSquare(3487,3488,3489,3490,3532,3533,3534,3535,3536,3578)
+    AddStartSquare(3579,3580,3581,3582,3623,3624,3625,3626,3627,3670)
+    AddStartSquare(3671,3672,3673,3716,3717,3718,3763,3764,3809)
+}
+ 
+EventData(1) {
+    AddSpecialUnit(SpecUnit1,00,0624,00,010,Scientists)
+}
+EventData(2) {
+    EventText(u0405_00)
+}
+ 
+EventData(3) {
+    AddSpecialUnit(ArmyUnit,10,0577,04,008,-)
+}
+EventData(4) {
+    EventText(u0405_01)
+}
+MissionParameters {
+    Time(t)
+    MissionText(T04_05A)
+    MissionStartText(T04_05A.S)
+    MissionEndOKText(T04_05A.OK)
+    MissionEndBadText(T04_05A.BAD)
+}
+ 

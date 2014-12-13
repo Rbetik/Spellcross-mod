@@ -1,0 +1,73 @@
+; definovanie mien a parametrov jednotlivych spec. objektov
+; !!!! zatial je max. 40 roznych objektov !!!!
+; -------------------------------------------
+; 1.riadok: obranne cislo specialneho objektu
+; 2.riadok: max. energia specialneho objektu
+; 3.riadok: ozvucenie objektu
+; -------------------------------------------
+
+; SOAx_000 - stit
+10
+180
+9
+
+; SOAx_001 - rusicka
+10
+120
+9
+
+; SOAx_002 - stit
+10
+180
+9
+
+; SOAx_003 - stit
+10
+180
+9
+
+; SOAx_004 - nic
+0
+0
+0
+
+; SOAx_005 - Element portalu
+10
+180
+11
+
+; SOAx_006 - Element portalu
+10
+180
+11
+
+; SOAx_007 - Element portalu
+10
+180
+11
+
+; SOAx_008 - Element portalu
+10
+180
+11
+
+; SOAx_009 - jaskyna
+8
+160
+12
+
+; SOAx_010 - jaskyna
+8
+160
+12
+
+; SOAx_011 - dreveny domcek v mury
+6
+140
+5
+
+; SOAx_012 - dreveny domcek v mury
+6
+140
+5
+

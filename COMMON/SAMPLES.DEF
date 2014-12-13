@@ -1,0 +1,103 @@
+;*******************************************************************************
+;*    SUBOR NA DEFINOVANIE JEDNOTLIVYCH SAMPLOV PRIRADENYCH ROZNYM AKCIAM      *
+;*******************************************************************************
+
+; [000] zvuk tlacitok na pravom okraji strategickej casti hry û
+8-BUTOND
+; [001] zvuk selekcie uzemia na velkej strategickej mape û
+1-MAPA2
+; [002] zvuk stlacenia laveho tlacitka mysi na uzemi û
+1-MAPA1
+
+; [003] zvuk otacajucej sa veze tanku û
+8-TWMOVE
+
+; [004] stlacenie tlacitka na velkej mape û
+#
+; [005] vyber polozky v scrollbare û
+1-BUTON8
+; [006] stlacenie sipky v scrollbare û
+8-BUTONC
+; [007] posuvanie posuvatka scrollbaru û
+#
+; [008] velka mapa - mapa - attack button û
+8SBUTONE
+; [009] velka mapa - mapa - cancel button û
+8SBUTONE
+; [010] velka mapa - hierarchy - part 1/2 button û
+8SBUTONE
+; [011] velka mapa - hierarchy - ulozenie jednotky û
+1-BUTON8
+; [012] velka mapa - hierarchy - vymazanie jednotky û
+1-BUTON8
+; [013] velka mapa - units - upgrade button û
+8SBUTONE
+; [014] velka mapa - units - recruit button û
+8SBUTONE
+; [015] velka mapa - units - disband button û
+8SBUTONE
+; [016] velka mapa - units - OK button û
+8SBUTONE
+; [017] velka mapa - units - ulozenie jednotky û
+1-BUTON8
+; [018] velka mapa - buy - buy button û
+8SBUTONE
+
+; [019] stlacenie tlacitka End Turn û
+8-BUTONC
+; [020] zvuk ked Other Side napadne uzemie Aliancie (protiutok) û
+8-LOSTL
+; [021] zvuk ked Other Side ziska uzemie Aliancie (protiutokom - bez boja) û
+8-LOSTL
+; [022] zvuk konca tahu Other Side na velkej mape û
+#
+
+; zvuk pre Oponent Fire pre Other Side û
+8-OPONO
+; zvuk pre Oponent Fire pre Alianciu û
+8-OPONA
+
+; zvuk, ktory sa ozve pri postupe jednotky Aliancie û
+8-UPLEV
+
+; zvuk pri stlaceni praveho tlacitka na mene jednotky + objavenie sa infa û
+1-BUTON8
+; zvuk pisania 1 û
+1-TAP0
+; zvuk pisania 2 û
+1-TAP1
+; zvuk pisania 3 û
+1-TAP2
+; zvuk pisania 4 û
+1-TAP3
+; zvuk stlacenia tlacitka load û
+8-BUTONC
+; zvuk stlacenia tlacitka save û
+8-BUTONC
+; options uprava jasu û
+8-BUTONC
+; options hlasitost hudby û
+8-BUTONC
+; options hlasitost zvukov û
+8-BUTONC
+; options zmena rozliseni û
+8-BUTONC
+
+; sampel aktivnej polozky v main menu û
+1-PIP1
+; sampel stlacenia polozky v main menu û
+1-PIP1
+
+; stlacenie tlacitka na bojovej mape û
+8-BUTONC
+; stlacenie tlacitka na info obrazovke û
+8-BUTONC
+
+; stlacenie tlacitka "Start misie" na bojovej mape
+8-UNITOK
+
+; zvuk pri objaveni sa jednotky v portale
+8-PTRUNT
+
+;zvuk tlacitka KONIEC na velkej mape
+1-ENDMAP

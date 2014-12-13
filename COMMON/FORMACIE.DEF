@@ -1,0 +1,23 @@
+;prapor
+Formation(1) {
+    Attack(1)
+    AttackPT(0)
+    Defence(1)
+    Move(0)
+}
+
+;pluk
+Formation(2) {
+    Attack(2)
+    AttackPT(0)
+    Defence(2)
+    Move(0)
+}
+
+;brigada
+Formation(3) {
+    Attack(4)
+    AttackPT(0)
+    Defence(4)
+    Move(0)
+}

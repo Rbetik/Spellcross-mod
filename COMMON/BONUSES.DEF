@@ -1,0 +1,84 @@
+UnitLevel(1) {
+    Attack(0)
+    AttackPT(0)
+    Defence(0)
+    Move(0)
+}
+
+UnitLevel(2) {
+    Attack(1)
+    AttackPT(0)
+    Defence(1)
+    Move(0)
+}
+
+UnitLevel(3) {
+    Attack(1)
+    AttackPT(0)
+    Defence(2)
+    Move(0)
+}
+
+UnitLevel(4) {
+    Attack(2)
+    AttackPT(0)
+    Defence(2)
+    Move(0)
+}
+
+UnitLevel(5) {
+    Attack(2)
+    AttackPT(1)
+    Defence(3)
+    Move(0)
+}
+
+UnitLevel(6) {
+    Attack(3)
+    AttackPT(1)
+    Defence(4)
+    Move(1)
+}
+
+UnitLevel(7) {
+    Attack(4)
+    AttackPT(1)
+    Defence(4)
+    Move(1)
+}
+
+UnitLevel(8) {
+    Attack(4)
+    AttackPT(1)
+    Defence(5)
+    Move(1)
+}
+
+UnitLevel(9) {
+    Attack(5)
+    AttackPT(1)
+    Defence(5)
+    Move(2)
+}
+
+UnitLevel(10) {
+    Attack(6)
+    AttackPT(2)
+    Defence(6)
+    Move(2)
+}
+
+UnitLevel(11) {
+    Attack(6)
+    AttackPT(2)
+    Defence(7)
+    Move(2)
+}
+
+UnitLevel(12) {
+    Attack(7)
+    AttackPT(2)
+    Defence(7)
+    Move(2)
+}
+

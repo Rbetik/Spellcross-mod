@@ -1,0 +1,27 @@
+; mena jednotlivych typov mostov (max. 19 znakov na meno)
+; -------------------------------------------
+; 1.riadok: obranne cislo mostu
+; 2.riadok: max. energia mostu
+; 3.riadok: cislo ozvucenia zasahu a znicenia
+; -------------------------------------------
+
+; typ 0: dreveny most
+2
+100
+1
+
+; typ 1: kamenny most
+4
+120
+2
+
+; typ 2: betonovy most
+4
+180
+3
+
+; typ 3: zelezny most
+10
+260
+4
+
