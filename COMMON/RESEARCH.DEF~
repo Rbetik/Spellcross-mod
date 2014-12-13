@@ -8,24 +8,26 @@ Item(0) {
     UpgradePrice(40)
 }
 
-; Heavy Infantry
+; Heavy gunners
 Item(1) {
-    Flags(UnitType)
+    Flags(NewUnit)
     Data(1)
     Group(Races)
-    Time(0)
-    Level(0)
-    UpgradePrice(45)
+    Time(5)
+    Level(2)
+    ORconnections(151)
+    UpgradePrice(85)
 }
 
 ; Rangers
 Item(2) {
-    Flags(UnitType)
+    Flags(NewUnit)
     Data(2)
     Group(Races)
-    Time(0)
+    Time(2)
     Level(0)
-    UpgradePrice(60)
+    ORconnections(149)
+    UpgradePrice(90)
 }
 
 ; Commandos
@@ -96,14 +98,14 @@ Item(8) {
     UpgradePrice(300)
 }
 
-; Flame-throwers
+; Suicide squad
 Item(9) {
     Flags(NewUnit)
     Data(9)
     Group(Races)
-    Time(24)
-    Level(3)
-    ORconnections(42,45)
+    Time(5)
+    Level(2)
+    ORconnections(175)
     UpgradePrice(80)
 }
 
@@ -203,14 +205,15 @@ Item(18) {
     UpgradePrice(115)
 }
 
-; Marder
+; Marder -flame
 Item(19) {
-    Flags(UnitType)
+    Flags(NewUnit)
     Data(19)
     Group(Races)
-    Time(0)
-    Level(0)
-    UpgradePrice(100)
+    Time(10)
+    Level(3)
+    ORconnections(42,45)
+    UpgradePrice(140)
 }
 
 ; Piranha
@@ -359,15 +362,14 @@ Item(33) {
     UpgradePrice(300)
 }
 
-; M132
+; suicide bomber
 Item(34) {
     Flags(NewUnit)
     Data(34)
     Group(Races)
     Time(21)
-    Level(5)
-    ORconnections(42,45)
-    UpgradePrice(250)
+    ORconnections(176)
+    UpgradePrice(10)
 }
 
 ; UDES
@@ -1396,7 +1398,6 @@ Item(144) {
     Group(Upgrades)
     Time(28)
     Level(5)
-    ORconnections(34)
     ORconnections(91)
 }
 
@@ -1448,7 +1449,7 @@ Item(149) {
     ORconnections(38)
 }
 
-; Expansive Projectiles 
+; JPH Projectiles 
 Item(150) {
     Flags(UpgradeItem)
     Data(27)
@@ -1458,11 +1459,9 @@ Item(150) {
     ORconnections(149)
 }
 
-; Rearm AK-74
+; heavy infantry weapons
 Item(151) {
-    Flags(UpgradeItem)
-    Data(28)
-    Group(Upgrades)
+    Group(Technologies)
     Time(5)
     Level(2)
     ORconnections(149)
@@ -1478,14 +1477,14 @@ Item(152) {
     ORconnections(162)
 }
 
-; M2 Browning 
+; Caseless-MG
 Item(153) {
     Flags(UpgradeItem)
     Data(32)
     Group(Upgrades)
     Time(15)
     Level(3)
-    ORconnections(61)
+    ORconnections(174)
 }
 
 ; Supravodive materialy
@@ -1528,7 +1527,7 @@ Item(157) {
     ORconnections(96)
 }
 
-; Helios 
+; Helios
 Item(158) {
     Flags(UpgradeItem)
     Data(31)
@@ -1582,7 +1581,7 @@ Item(163) {
     Flags(Info)
     Group(Technologies)
     Time(7)
-    Level(2)
+    Level(3)
     ORconnections(56)
 }
 
@@ -1592,7 +1591,7 @@ Item(164) {
     Data(34)
     Group(Upgrades)
     Time(7)
-    Level(2)
+    Level(3)
     ORconnections(163)
 }
 
@@ -1682,4 +1681,37 @@ Item(173) {
     Level(7)
     ORconnections(172)
     ORconnections(170)
+}
+
+; caseless - AR
+Item(174) {
+    Flags(UpgradeItem)
+    Data(28)
+    Group(Upgrades)
+    Time(7)
+    Level(2)
+    ORconnections(177)
+}
+
+; suiciders
+Item(175) {
+    Flags(Info)
+    Group(Technologies)
+    Time(2)
+    Level(2)
+    ORconnections(34)
+    ORconnections(149)
+}
+
+; seeing of suicider
+Item(176) {
+    Flags(Special)
+}
+
+; Modern AR technologies
+Item(177) {
+    Flags(Info)
+    Group(Technologies)
+    Time(5)
+    Level(2)
 }

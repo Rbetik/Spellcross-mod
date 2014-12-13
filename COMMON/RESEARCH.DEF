@@ -1477,14 +1477,14 @@ Item(152) {
     ORconnections(162)
 }
 
-; M2 Browning 
+; Caseless-MG
 Item(153) {
     Flags(UpgradeItem)
     Data(32)
     Group(Upgrades)
     Time(15)
     Level(3)
-    ORconnections(61)
+    ORconnections(174)
 }
 
 ; Supravodive materialy
@@ -1688,7 +1688,7 @@ Item(174) {
     Flags(UpgradeItem)
     Data(28)
     Group(Upgrades)
-    Time(5)
+    Time(7)
     Level(2)
     ORconnections(177)
 }
