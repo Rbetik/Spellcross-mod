@@ -1398,7 +1398,6 @@ Item(144) {
     Group(Upgrades)
     Time(28)
     Level(5)
-    ORconnections(34)
     ORconnections(91)
 }
 
@@ -1691,7 +1690,7 @@ Item(174) {
     Group(Upgrades)
     Time(5)
     Level(2)
-    ORconnections(34)
+    ORconnections(177)
 }
 
 ; suiciders
@@ -1710,7 +1709,7 @@ Item(176) {
 }
 
 ; Modern AR technologies
-Item(175) {
+Item(177) {
     Flags(Info)
     Group(Technologies)
     Time(5)

@@ -19,7 +19,7 @@ Upgrade(28) {
     Attack(1)
     Move(1)
     Flags(Engine)
-    SuitableTypes(0,2,3,87,9)
+    SuitableTypes(0,2,3,9,87)
     UpgradeTime(1)
     UpgradePrice(50)
 }
