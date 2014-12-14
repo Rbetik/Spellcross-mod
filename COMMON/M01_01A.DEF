@@ -22,18 +22,17 @@ MissionData {
     AddUnit(69,38,4589,0,100,WaitForContact,-)
     AddUnit(72,38,1250,0,100,WaitForContact,-)
     AddUnit(73,60,2583,0,10,WaitForContact,-)
-    AddUnit(74,42,4183,0,50,WaitForContact,-)
+    AddUnit(74,38,4183,0,50,WaitForContact,-)
     AddUnit(75,47,6451,0,100,WaitForContact,-)
     AddUnit(76,61,3585,0,20,WaitForContact,-)
     AddUnit(77,61,3685,0,20,WaitForContact,-)
-    AddUnit(78,42,1681,0,60,WaitForContact,-)
+    AddUnit(78,38,1681,0,60,WaitForContact,-)
     AddUnit(79,37,5828,1,100,WaitForContact,-) 
     AddUnit(80,38,2042,2,100,WaitForContact,-) 
 
     AddMissionObjective(TransportUnit,48,Probojovat se na z kladnu)
     AddMissionObjective(SeePlace,6211, get to the barn)
-    AddMissionObjective(SaveUnit,48, save scientist)
-    AddMissionObjective(SaveUnit,48,Probojovat se na z kladnu)
+    AddMissionObjective(TransportUnit,49, save scientist)
 
     AddSpecialEvent(SeePlace,5745,01,100%)
     AddSpecialEvent(MissionStart,02,100%)
@@ -44,7 +43,7 @@ MissionData {
     AddSpecialEvent(SeePlace,3531,07,100%)
     AddSpecialEvent(SeePlace,4125,08,100%)  
     AddSpecialEvent(SeePlace,3241,09,100%)
-    AddSpecialEvent(SeePlace,3485,10,100%)
+    AddSpecialEvent(SeePlace,4125,10,100%)
     AddSpecialEvent(SeePlace,4543,11,100%)
     AddSpecialEvent(SeePlace,3454,12,100%)
     AddSpecialEvent(SeePlace,5961,13,100%)
@@ -77,7 +76,7 @@ MissionData {
     AddSpecialEvent(SeePlace,3753,40,100%)
 
     AddStartSquare(3905)
-    AddEscapeSquare(3906,2195,2294,2295,2296,2394,2395,2396,2397,2494,2495)
+    AddEscapeSquare(2195,2294,2295,2296,2394,2395,2396,2397,2494,2495)
     AddEscapeSquare(2496,2597)
     AddTargetSquare(6211)
 }
@@ -116,8 +115,7 @@ EventData(7) {
  
 EventData(8) {
     ;scientist
-    AddSpecialUnit(SpecUnit2,79,3485,03,1, James Robertson)
-    EventText(u0101_12)
+    AddSpecialUnit(SpecUnit2,79,4125,03,1, James Robertson)
 }
  
 EventData(9) {
@@ -126,6 +124,7 @@ EventData(9) {
  
 EventData(10) {
     ;todo empty
+    EventText(u0101_12)
 }
  
 EventData(11) {
@@ -174,8 +173,8 @@ EventData(21) {
 }
  
 EventData(22) {
-    ;transporter
-    AddSpecialUnit(ArmyUnit,18,6828,04,8,-)
+    ;lighInfantry
+    AddSpecialUnit(ArmyUnit,0,6828,04,8,-)
 }
 
 EventData(23) {
@@ -203,12 +202,12 @@ EventData(26) {
 }
  
 EventData(27) {
-    AddSpecialUnit(ArmyUnit,1,5659,04,100,-)
+    AddSpecialUnit(ArmyUnit,0,5659,04,100,-)
     ;AddSpecialUnit(ArmyUnit,25,5659,05,010,-)
 }
  
 EventData(28) {
-    AddSpecialUnit(ArmyUnit,1,5313,03,100,-)
+    AddSpecialUnit(ArmyUnit,0,5313,03,100,-)
     ;AddSpecialUnit(ArmyUnit,25,5313,04,010,-)
 }
  
@@ -233,7 +232,7 @@ EventData(33) {
 }
  
 EventData(34) {
-    AddSpecialUnit(ArmyUnit,1,1560,02,100,-)  
+    AddSpecialUnit(MissionUnit,3,1560,02,100,-)  
 }
  
 EventData(35) {
