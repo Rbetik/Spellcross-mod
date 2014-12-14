@@ -26,7 +26,8 @@ MissionData {
     AddUnit(73,41,2081,0,20,WaitForContact,-)
     AddUnit(74,41,1044,0,20,WaitForContact,-)
     AddUnit(75,41,0984,0,20,WaitForContact,-)
-
+    AddUnit(76,55,2692,0,10,ToughDefence,-)
+    AddUnit(77,55,3230,0,10,ToughDefence,-)
 
     AddMissionObjective(SaveUnit,48, save civilians)
 
@@ -66,4 +67,4 @@ MissionParameters {
     MissionEndOKText(T02_03A.OK)
     MissionEndBadText(T02_03A.BAD)
 }
- 
+

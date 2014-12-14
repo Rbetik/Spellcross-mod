@@ -26,7 +26,14 @@ MissionData {
     AddUnit(73,41,2081,0,20,WaitForContact,-)
     AddUnit(74,41,1044,0,20,WaitForContact,-)
     AddUnit(75,41,0984,0,20,WaitForContact,-)
-    AddMissionObjective(DestroyAllUnits, Znien¡ v¨ech jednotek)
+    AddUnit(76,55,2692,0,10,ToughDefence,-)
+    AddUnit(77,55,3230,0,10,ToughDefence,-)
+
+    AddMissionObjective(DestroyUnit,50, Destroy arrowThrowers)
+    AddMissionObjective(DestroyUnit,51, Destroy arrowThrowers)
+    AddMissionObjective(DestroyUnit,76, Destroy arrowThrowers)
+    AddMissionObjective(DestroyUnit,77, Destroy arrowThrowers)
+
     AddStartSquare(0662,0721,0722,0782,0783,0841,0842,0843,0902,0903)
     AddStartSquare(0904,0961,0962,0963,0964,1022,1023,1024,1025,1081)
     AddStartSquare(1082,1083,1084,1085,1142,1143,1144,1145,1201,1202)
@@ -36,9 +43,8 @@ MissionData {
  
 MissionParameters {
     Time(t)
-    MissionText(T02_03A)
-    MissionStartText(T02_03A.S)
-    MissionEndOKText(T02_03A.OK)
-    MissionEndBadText(T02_03A.BAD)
+    MissionText(T02_03B)
+    MissionStartText(T02_03B.S)
+    MissionEndOKText(T02_03B.OK)
+    MissionEndBadText(T02_03B.BAD)
 }
- 
