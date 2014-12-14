@@ -31,15 +31,18 @@ MissionData {
     AddUnit(80,38,2042,2,100,WaitForContact,-) 
 
     AddMissionObjective(TransportUnit,48,Probojovat se na z kladnu)
+    AddMissionObjective(SeePlace,6211, get to the barn)
+    AddMissionObjective(SaveUnit,48, save scientist)
+    AddMissionObjective(SaveUnit,48,Probojovat se na z kladnu)
 
     AddSpecialEvent(SeePlace,5745,01,100%)
     AddSpecialEvent(MissionStart,02,100%)
-    AddSpecialEvent(SeePlace,3905,03,100%)
+    AddSpecialEvent(SeePlace,6211,03,100%)
     AddSpecialEvent(SeePlace,5516,04,100%)
     AddSpecialEvent(SeePlace,1918,05,100%)
     AddSpecialEvent(SeePlace,1629,06,100%)
     AddSpecialEvent(SeePlace,3531,07,100%)
-    AddSpecialEvent(SeePlace,3485,08,100%)  
+    AddSpecialEvent(SeePlace,4125,08,100%)  
     AddSpecialEvent(SeePlace,3241,09,100%)
     AddSpecialEvent(SeePlace,3485,10,100%)
     AddSpecialEvent(SeePlace,4543,11,100%)
@@ -76,11 +79,12 @@ MissionData {
     AddStartSquare(3905)
     AddEscapeSquare(3906,2195,2294,2295,2296,2394,2395,2396,2397,2494,2495)
     AddEscapeSquare(2496,2597)
+    AddTargetSquare(6211)
 }
  
 
 EventData(1) {
-    // komando v ohrade
+    ;komando v ohrade
     AddSpecialUnit(ArmyUnit,03,5745,05,020,-)
 }
  
@@ -89,8 +93,7 @@ EventData(2) {
 }
 
 EventData(3) {
-    // add text about save
-    //todo
+    ; add text about saving rob hunto
     EventText(u0101_13)   
 }
  
@@ -112,8 +115,9 @@ EventData(7) {
 }
  
 EventData(8) {
-    // duch :D
-    AddSpecialUnit(EnemyUnit,45,3485,1,8,-)
+    ;scientist
+    AddSpecialUnit(SpecUnit2,79,3485,03,1, James Robertson)
+    EventText(u0101_12)
 }
  
 EventData(9) {
@@ -121,8 +125,7 @@ EventData(9) {
 }
  
 EventData(10) {
-    // duch text
-    EventText(u0101_12)   
+    ;todo empty
 }
  
 EventData(11) {
@@ -171,27 +174,27 @@ EventData(21) {
 }
  
 EventData(22) {
-    // transporter
+    ;transporter
     AddSpecialUnit(ArmyUnit,18,6828,04,8,-)
 }
 
 EventData(23) {
-    // sniper
-    AddSpecialUnit(ArmyUnit,87,1111,03,1,-)
+    ;sniper
+    AddSpecialUnit(ArmyUnit,87,1111,03,10,-)
 
-    // a par zelenejch
+    ; a par zelenejch
     AddSpecialUnit(EnemyUnit,37,913,3,100,-)
     AddSpecialUnit(EnemyUnit,41,1013,3,20,-)
 }
 
  
 EventData(24) {
-    // delo text
+    ; delo text
     EventText(u0101_08)
 }
  
 EventData(25) {
-    // delo
+    ; delo
     AddSpecialUnit(ArmyUnit,25,3513,4,9,"Lehk‚" dˆlo)
 }
  
@@ -201,12 +204,12 @@ EventData(26) {
  
 EventData(27) {
     AddSpecialUnit(ArmyUnit,1,5659,04,100,-)
-    //AddSpecialUnit(ArmyUnit,25,5659,05,010,-)
+    ;AddSpecialUnit(ArmyUnit,25,5659,05,010,-)
 }
  
 EventData(28) {
     AddSpecialUnit(ArmyUnit,1,5313,03,100,-)
-    //AddSpecialUnit(ArmyUnit,25,5313,04,010,-)
+    ;AddSpecialUnit(ArmyUnit,25,5313,04,010,-)
 }
  
 EventData(29) {
