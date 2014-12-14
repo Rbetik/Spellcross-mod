@@ -2,7 +2,6 @@ MissionData {
     MissionMap(M01_01)
     AddUnit(50,48,1594,0,100,PatrolUnit,-)
     AddUnit(51,37,3304,0,100,WaitForContact,-)
-    //AddUnit(51,55,3304,0,10,WaitForContact,-)
     AddUnit(52,37,2903,0,100,WaitForContact,-)
     AddUnit(53,38,3002,0,100,WaitForContact,-)
     AddUnit(54,37,1001,0,100,WaitForContact,-)
@@ -30,11 +29,12 @@ MissionData {
     AddUnit(78,42,1681,0,60,WaitForContact,-)
     AddUnit(79,37,5828,1,100,WaitForContact,-) 
     AddUnit(80,38,2042,2,100,WaitForContact,-) 
-   
+
     AddMissionObjective(TransportUnit,48,Probojovat se na z kladnu)
+
     AddSpecialEvent(SeePlace,5745,01,100%)
     AddSpecialEvent(MissionStart,02,100%)
-    AddSpecialEvent(SeePlace,5516,03,100%)
+    AddSpecialEvent(SeePlace,3905,03,100%)
     AddSpecialEvent(SeePlace,5516,04,100%)
     AddSpecialEvent(SeePlace,1918,05,100%)
     AddSpecialEvent(SeePlace,1629,06,100%)
@@ -80,23 +80,22 @@ MissionData {
  
 
 EventData(1) {
+    // komando v ohrade
     AddSpecialUnit(ArmyUnit,03,5745,05,020,-)
 }
  
 EventData(2) {
     AddSpecialUnit(SpecUnit1,79,3905,05,1,kpt.Alexander)
-    //AddSpecialUnit(SpecUnit1,72,3090,00,10,kpt.Alexander)
-    //AddSpecialUnit(SpecUnit1,64,3905,12,20,kpt.Alexander)
-    //AddSpecialUnit(SpecUnit1,79,3905,07,001,kpt.Alexander)
-    //AddSpecialUnit(SpecUnit1,65,3905,12,1,kpt.Alexander)
-    //AddSpecialUnit(SpecUnit1,79,3785,07,001,kpt.Alexander)
 }
- 
+
 EventData(3) {
-    AddSpecialUnit(EnemyUnit,37,5617,2,100,-)
+    // add text about save
+    //todo
+    EventText(u0101_13)   
 }
  
 EventData(4) {
+    AddSpecialUnit(EnemyUnit,37,5617,2,100,-)
     AddSpecialUnit(EnemyUnit,41,5717,3,020,-)
 }
  
@@ -114,7 +113,6 @@ EventData(7) {
  
 EventData(8) {
     // duch :D
-    //AddUnit(79,45,3605,0,8,WaitForContact,-)
     AddSpecialUnit(EnemyUnit,45,3485,1,8,-)
 }
  
@@ -184,7 +182,6 @@ EventData(23) {
     // a par zelenejch
     AddSpecialUnit(EnemyUnit,37,913,3,100,-)
     AddSpecialUnit(EnemyUnit,41,1013,3,20,-)
-    
 }
 
  
@@ -266,9 +263,6 @@ EventData(39) {
 EventData(40) {
     EventText(u0101_11)
 }
-
- 
-
  
 MissionParameters {
     Time(t)
