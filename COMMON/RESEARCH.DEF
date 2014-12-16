@@ -92,9 +92,10 @@ Item(8) {
     Flags(NewUnit)
     Data(8)
     Group(Races)
-    Time(0)
-    Level(0)
-    ORconnections(33)
+    Time(30)
+    Level(4)
+    ORconnections(122)
+    ORconnections(123)
     UpgradePrice(300)
 }
 
@@ -350,16 +351,17 @@ Item(32) {
     UpgradePrice(230)
 }
 
-; Laser - Strahler
+; mind desruptor
 Item(33) {
     Flags(NewUnit)
     Data(33)
     Group(Races)
     Time(30)
-    Level(4)
-    ORconnections(122)
-    ORconnections(123)
-    UpgradePrice(300)
+    Level(7)
+    ;todo
+    ;ORconnections(122)
+    ;ORconnections(123)
+    UpgradePrice(1000)
 }
 
 ; suicide bomber
