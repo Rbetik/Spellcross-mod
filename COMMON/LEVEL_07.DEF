@@ -57,6 +57,8 @@ LevelInit {
     SetResearchFlag(31)
     ;MLRS
     SetResearchFlag(28)
+    ;roland
+    SetResearchFlag(6)
 
     LevelMusic(mus00)
     End(14)

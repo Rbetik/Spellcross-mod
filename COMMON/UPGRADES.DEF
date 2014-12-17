@@ -237,7 +237,7 @@ Upgrade(13) {
 ;
 Upgrade(14) {
     Attack(2)
-    SuitableTypes(10,11,12,13,14,35,36)
+    SuitableTypes(10,11,12,13,35,36)
     Flags(Weapon)
     UpgradeTime(2)
     UpgradePrice(15)
@@ -260,7 +260,7 @@ Upgrade(15) {
 Upgrade(16) {
     AttackPT(1)
     Attack(2)
-    SuitableTypes(10,11,12,13,14,26)
+    SuitableTypes(10,11,12,13,26)
     Flags(Weapon)
     UpgradeTime(2)
 }
@@ -271,7 +271,7 @@ Upgrade(16) {
 Upgrade(17) {
     Attack(-1)
     Range(2)
-    SuitableTypes(10,11,12,13,14)
+    SuitableTypes(10,11,12,13)
     Flags(Weapon)
     UpgradeTime(2)
     UpgradePrice(60)
@@ -308,7 +308,7 @@ Upgrade(19) {
 Upgrade(20) {
     Attack(6)
     Range(1)
-    SuitableTypes(10,11,12,13,14,15,16,17,18,19)
+    SuitableTypes(10,11,12,13,15,16,17,18,19)
     SuitableTypes(22,35,36,73)
     Flags(Weapon)
     UpgradeTime(3)
@@ -383,7 +383,7 @@ Upgrade(27) {
 ;
 Upgrade(29) {
     Attack(2)
-    SuitableTypes(19)
+    SuitableTypes(19,14)
     Flags(Weapon)
     UpgradeTime(1)
     UpgradePrice(40)
@@ -395,7 +395,7 @@ Upgrade(29) {
 Upgrade(32) {
     Attack(2)
     AttackPT(1)
-    SuitableTypes(1,10,14,18)
+    SuitableTypes(1,10,18)
     Flags(Weapon)
     UpgradeTime(1)
     UpgradePrice(50)

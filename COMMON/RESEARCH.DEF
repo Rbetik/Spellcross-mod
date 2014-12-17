@@ -61,15 +61,14 @@ Item(5) {
     UpgradePrice(110)
 }
 
-; roland-storm
+; roland
 Item(6) {
-    Flags(NewUnit)
+    Flags(UnitType)
     Data(6)
     Group(Races)
-    Time(45)
-    Level(7)
-;todo
-    UpgradePrice(120)
+    Time(0)
+    Level(0)
+    UpgradePrice(300)
 }
 
 ; Hi-Tech
@@ -87,7 +86,7 @@ Item(7) {
     UpgradePrice(250)
 }
 
-; Laser - strahles shooting 
+; Laser
 Item(8) {
     Flags(NewUnit)
     Data(8)
@@ -152,12 +151,13 @@ Item(13) {
 
 ; STRV
 Item(14) {
-    Flags(UnitType)
+    Flags(NewUnit)
     Data(14)
     Group(Races)
-    Time(0)
-    Level(0)
-    UpgradePrice(105)
+    Time(10)
+    Level(4)
+    ORconnections(19)
+    UpgradePrice(160)
 }
 
 ; Elmag 1
@@ -1715,4 +1715,19 @@ Item(177) {
     Group(Technologies)
     Time(5)
     Level(2)
+}
+
+; something for mind disruptor
+Item(178) {
+    Flags(Info)
+    Group(Technologies)
+    Time(30)
+    Level(7)
+    ORconnections(4)
+    ORconnections(179)
+}
+
+; seeing glowing bol
+Item(179) {
+    Flags(Special)
 }
