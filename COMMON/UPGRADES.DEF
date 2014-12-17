@@ -127,7 +127,7 @@ Upgrade(30) {
 Upgrade(25) {
     Move(1)
     Defence(4)
-    SuitableTypes(6,7,88,89)
+    SuitableTypes(7,88,89)
     Flags(Armor)
     UpgradeTime(3)
     UpgradePrice(450)
@@ -431,7 +431,7 @@ Upgrade(35) {
     Attack(3)
     Range(1)
     AttackPT(1)
-    SuitableTypes(6,7,88,89)
+    SuitableTypes(7,88,89)
     Flags(Weapon)
     UpgradeTime(4)
     UpgradePrice(500)

@@ -61,28 +61,28 @@ Item(5) {
     UpgradePrice(110)
 }
 
-; Hi-Tech Infantry
+; roland-storm
 Item(6) {
     Flags(NewUnit)
     Data(6)
     Group(Races)
     Time(45)
-    Level(5)
-    ORconnections(77)
-    ORconnections(124)
-    ORconnections(126)
-    ORconnections(129)
+    Level(7)
+;todo
     UpgradePrice(120)
 }
 
-; Heavy Hi-Tech
+; Hi-Tech
 Item(7) {
     Flags(NewUnit)
     Data(7)
     Group(Races)
     Time(72)
-    Level(7)
-    ORconnections(6)
+    Level(6)
+    ORconnections(77)
+    ORconnections(124)
+    ORconnections(126)
+    ORconnections(129)
     ORconnections(125)
     UpgradePrice(250)
 }
@@ -1389,7 +1389,6 @@ Item(143) {
     Level(7)
     ORconnections(159)
     ORconnections(7)
-    ORconnections(69)
     UpgradePrice(300)
 }
 
