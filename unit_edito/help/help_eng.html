@@ -1,0 +1,129 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+  <meta name="Author" content="Maslan Stanislav">
+  <meta name="Copyright" content="(C) 2011">
+  <link rel="stylesheet" type="text/css" href="help.css">
+  <title>Spellcross - units properties editor</title>
+</head>                             
+<body>
+
+<table align="center"><tr><td width="974">
+
+<table align="right">
+ <tr>
+  <td>
+   <a href="help_cze.html"><img src="obr/cze.png" alt="Česky"></a>
+  </td>
+ </tr>
+</table>
+
+<div class="n1">Spellcross - units properties editor</div>
+<table align="center">
+ <tr>
+  <td>
+   <img src="obr/bline.gif" alt="" align="middle">
+  </td>
+ </tr>
+</table>
+<br>
+
+<p align="justify">
+&nbsp;&nbsp; This little program allows you to modify Spellcross units properties which are defined in 
+binary file JENDOTKY.DEF in archive COMMON.FS. Spellcross game also allows you to add some extra units 
+(only limited count but better than nothing).<br>
+&nbsp;&nbsp; This program was created and tested in BDS2006 Turbo C++ at M$ Windows XP so I have no idea what 
+it does in newer OS versions but since I didn't used anything XP specific it should work.
+</p>
+
+<br>
+<div class="n2">1 - Settings</div><p align="justify">
+&nbsp;&nbsp; There is only one thing to set. You have to choose correct game version. Original CZ version 
+has one byte shorter unit record so it's no compatible with any newer version. This setting is available in 
+menu "Version". The same menu allows you to convert version from one to another (of course you will lost 
+that one aditinal byte which contains "unit healed by fire" flag).
+</p>
+
+<table align="center"><tr><td>
+<img src="obr/scr_basic.png" alt="This is how it looks like" title="This is how it looks like">
+</td></tr></table><br>
+
+<div class="n2">2 - Editation</div><p align="justify">
+&nbsp;&nbsp; All items of program window have hint comments in both CZ and ENG language so
+it should be obvious. 
+Some items in unit record are a bit mysterious and are usually commented with "???". Not all 
+values/combinations are valid. Game could crash (it should write reason into *.ERR file in game folder). 
+I recommend you to make backup before editing. ;-)<br>
+&nbsp;&nbsp; Any changes in unit record has to be saved with button "Save changes". If you have 
+changed something incorrectly you can "Discard chanes". You can also add new unit or remove last units from list. 
+Only last unit can be removed because otherwise unit order would be changed and no other *.DEF file could work correctly. 
+All the buttons down in the window affects only one selected unit. 
+If you've finish editing you have to save whole unit list using menu "File". 
+Changes in JEDNOTKY.DEF appears only in new game or new level (as almost every change in data archives). 
+</p>
+
+<div class="n3">2.1 - Editation, page Basic</div><p align="justify">
+&nbsp;&nbsp; Here are only the basic properties settings. There are some mysterious 
+items but I think best way to hadnle them is to copy their values from similar units. 
+It's mostly experimental work (edit/save/make common.fs/run game/fffuuuu because it's not doing what you thought it would). 
+</p>
+
+<div class="n3">2.2 - Editation, page Graphics</div><p align="justify">
+&nbsp;&nbsp; Here are defined unit graphics files. At first there is icon file and help resource and 
+main unit graphics resources. 
+Then there are attack animations for unit/weapon shot/projectile hit. There is also one field for 
+projectile file which is common for all kinds of attack. 
+</p>
+
+<div class="n3">2.3 - Editation, page Sounds</div><p align="justify">
+&nbsp;&nbsp; Sounds in Spellcross are defined using classes. Each unit has several class IDs for 
+it's actions. Theese classes are defined in x_SOUNDS.DEF files in COMMON.FS (coresponding *.DEF files are 
+in hint help). <br>
+&nbsp;&nbsp; Sounds are the biggest problem of Spellcross game because maximal count of 
+classes pf each kind is limited. For example weapon sounds (A_SOUNDS.DEF) allows you to add only 2 additional classes for CZ version 
+(ENG version seems to have bigger reserve). 
+</p>
+
+<table align="center"><tr><td>
+<img src="obr/A_SOUNDS_DEF.png" alt="Sound classes *.DEF file example" title="Sound classes *.DEF file example">
+</td></tr></table><br>
+
+<div class="n3">2.4 - Editation, page Special actions</div><p align="justify">
+&nbsp;&nbsp; Allows you to set some special actions for units (for example aircraft take off or landing). 
+Spellcross also allows you to make death action which is in newer game version used at least for 
+death animation (not directly possible in CZ version). 
+</p>
+
+<div class="n3">2.5 - Editation, page Hex record viewer</div><p align="justify">
+&nbsp;&nbsp; It's result of debuging process. I've used it to understand meaning of more 
+complex binary items. 
+</p>
+
+<div class="n3">2.6 - Editation, unit name</div><p align="justify">
+&nbsp;&nbsp; Actual unit name which is displayed is not defined in this JEDNOTKY.DEF file but 
+in UNITS.ENG (or .CZ, .PL, etc.) text file in COMMON.FS where each unit has one line of text. 
+Text encoding for CZ version is CP895, for PL version surprisingly CP1250, other languages probably uses CP1250 also. 
+</p>
+
+<br>
+<div class="n2">3 - Licence</div><p align="justify">
+&nbsp;&nbsp; It's freeware so you are free to use and redistribute it but only with all included files together (especially with this help) 
+without any modifications!<br>
+&nbsp;&nbsp; Since it's freeware you are using this at you own risk! Any possible dammage caused by this SW is your problem.<br> 
+&nbsp;&nbsp; If you don't agree with theese terms don't use this SW.<br>
+</p>
+
+
+<br>
+<div class="n2">4 - Contact</div><p align="justify">
+&nbsp;&nbsp; In case of some problems with this SW you can contact me at 
+<a href="mailto:s.maslan@seznam.cz">s.maslan@seznam.cz</a>. Additional informations and new versions could be find here: 
+<a href="http://www.spellcross.kvalitne.cz/units/spell_units/spell_uniteditor.html">http://www.spellcross.kvalitne.cz/units/spell_units/spell_uniteditor.html</a>.
+</p>
+
+<br><br>
+<div class="rights">(c) 2011, Stanislav Mašláň - All rights reserved.</div>
+
+</table>
+</body>
+</html>
