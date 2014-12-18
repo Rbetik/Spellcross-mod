@@ -88,6 +88,15 @@ Mission(M02_04A) {
 }
 
 Mission(M02_05A) {
+    EndOKMission(M02_05B)
+    EndBadMission(M02_05B)
+    EndBadEvent(12)
+    EndOKEvent(12)
+    EndOK(100,50)
+    FrequencyOfRandomAttacks(10,8)
+}
+
+Mission(M02_05B) {
     EndOKMission(none)
     EndBadMission(none)
     EndBadEvent(4)
@@ -172,4 +181,9 @@ Event(10) {
 Event(11) {
     AbsTime(2)
     EventText(E02_0001)
+}
+
+Event(12) {
+    SetResearchFlag(176)
+    EventText(E02_0012)
 }

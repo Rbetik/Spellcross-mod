@@ -35,8 +35,10 @@ MissionData {
     AddUnit(83,37,1306,0,100,WaitForContact,-)
     AddUnit(84,37,1251,0,100,WaitForContact,-)
     AddUnit(85,38,0946,0,100,WaitForContact,-)
+
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddMissionObjective(SeePlace,1110,Explore ork camp)
+
     AddSpecialEvent(SeePlace,1110,01,100%)
     AddStartSquare(3842,3896,3897,3951,3952,3953,3954,4005,4006,4007)
     AddStartSquare(4008,4009,4060,4061,4062,4063,4064,4065,4114,4115)
@@ -53,8 +55,8 @@ EventData(1) {
 MissionParameters {
     Time(t)
     MissionText(T02_05B)
-    MissionStartText(T02_05A.S)
-    MissionEndOKText(T02_05A.OK)
-    MissionEndBadText(T02_05A.BAD)
+    MissionStartText(T02_05B.S)
+    MissionEndOKText(T02_05B.OK)
+    MissionEndBadText(T02_05B.BAD)
 }
  
