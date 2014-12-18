@@ -1,12 +1,12 @@
 MissionData {
     MissionMap(M02_05)
     AddUnit(50,55,1996,0,10,ToughDefence,-)
-    AddUnit(51,37,2292,0,100,ToughDefence,-)
-    AddUnit(52,37,2236,0,100,ToughDefence,-)
-    AddUnit(53,37,2181,0,100,ToughDefence,-)
-    AddUnit(54,37,3872,0,100,ToughDefence,-)
-    AddUnit(55,37,3817,0,100,ToughDefence,-)
-    AddUnit(56,37,3761,0,100,ToughDefence,-)
+    AddUnit(51,37,2292,0,100,WaitForContact,-)
+    AddUnit(52,37,2236,0,100,WaitForContact,-)
+    AddUnit(53,37,2181,0,100,WaitForContact,-)
+    AddUnit(54,37,3872,0,100,WaitForContact,-)
+    AddUnit(55,37,3817,0,100,WaitForContact,-)
+    AddUnit(56,37,3761,0,100,WaitForContact,-)
     AddUnit(57,38,2051,0,100,ToughDefence,-)
     AddUnit(58,37,1001,0,100,ToughDefence,-)
     AddUnit(59,37,1057,0,100,ToughDefence,-)
@@ -21,14 +21,23 @@ MissionData {
     AddUnit(71,61,4156,0,20,ToughDefence,-)
     AddUnit(72,55,1361,0,10,ToughDefence,-)
     AddUnit(75,61,1471,0,20,ToughDefence,-)
-    AddUnit(76,37,2401,0,100,ToughDefence,-)
-    AddUnit(77,37,3762,0,100,ToughDefence,-)
+    AddUnit(76,37,2401,0,100,WaitForContact,-)
+    AddUnit(77,37,3762,0,100,WaitForContact,-)
     AddUnit(78,48,0631,0,100,ToughDefence,-)
     AddUnit(79,48,2866,0,100,ToughDefence,-)
     AddUnit(82,37,1360,0,100,ToughDefence,-)
     AddUnit(83,37,1306,0,100,ToughDefence,-)
     AddUnit(84,37,1251,0,100,ToughDefence,-)
     AddUnit(85,38,0946,0,100,ToughDefence,-)
+
+    AddUnit(86,37,3105,0,100,WaitForContact,-)
+    AddUnit(87,37,3106,0,100,WaitForContact,-)
+    AddUnit(88,37,3107,0,100,WaitForContact,-)
+    AddUnit(89,37,3161,0,100,WaitForContact,-)
+    AddUnit(90,37,2396,0,100,WaitForContact,-)
+    AddUnit(91,37,2397,0,100,WaitForContact,-)
+    AddUnit(92,37,2341,0,100,WaitForContact,-)
+    AddUnit(93,37,2451,0,100,WaitForContact,-)
 
     AddMissionObjective(DestroyUnit,51, Kill Orks)
     AddMissionObjective(DestroyUnit,52, Kill Orks)
@@ -38,6 +47,8 @@ MissionData {
     AddMissionObjective(DestroyUnit,56, Kill Orks)
     AddMissionObjective(DestroyUnit,76, Kill Orks)
     AddMissionObjective(DestroyUnit,77, Kill Orks)
+    AddMissionObjective(DestroyUnit,86, Kill Orks)
+    AddMissionObjective(DestroyUnit,91, Kill Orks)
 
     AddSpecialEvent(MissionStart,01,100%)
     AddSpecialEvent(MissionStart,02,100%)
@@ -45,8 +56,6 @@ MissionData {
     AddSpecialEvent(MissionStart,04,100%)
     AddSpecialEvent(MissionStart,05,100%)
     AddSpecialEvent(MissionStart,06,100%)
-    AddSpecialEvent(MissionStart,07,100%)
-    AddSpecialEvent(MissionStart,08,100%)
 
     AddStartSquare(3842,3896,3897,3951,3952,3953,3954,4005,4006,4007)
     AddStartSquare(4008,4009,4060,4061,4062,4063,4064,4065,4114,4115)
@@ -81,13 +90,6 @@ EventData(6) {
     AddSpecialUnit(MissionUnit,34,4330,00,001,-)
 }
 
-EventData(7) {
-    AddSpecialUnit(MissionUnit,34,4386,00,001,-)
-}
- 
-EventData(8) {
-    AddSpecialUnit(MissionUnit,34,4275,00,001,-)
-}
 
 MissionParameters {
     Time(t)

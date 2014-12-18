@@ -1,12 +1,6 @@
 MissionData {
     MissionMap(M02_05)
     AddUnit(50,55,1996,0,10,WaitForContact,-)
-    AddUnit(51,37,2292,0,100,WaitForContact,-)
-    AddUnit(52,37,2236,0,100,WaitForContact,-)
-    AddUnit(53,37,2181,0,100,WaitForContact,-)
-    AddUnit(54,37,3872,0,100,WaitForContact,-)
-    AddUnit(55,37,3817,0,100,WaitForContact,-)
-    AddUnit(56,37,3761,0,100,WaitForContact,-)
     AddUnit(57,38,2051,0,100,WaitForContact,-)
     AddUnit(58,37,1001,0,100,WaitForContact,-)
     AddUnit(59,37,1057,0,100,WaitForContact,-)
@@ -25,8 +19,6 @@ MissionData {
     AddUnit(73,37,1416,0,100,WaitForContact,-)
     AddUnit(74,37,2291,0,100,WaitForContact,-)
     AddUnit(75,61,1471,0,20,WaitForContact,-)
-    AddUnit(76,37,2401,0,100,NormalUnit,-)
-    AddUnit(77,37,3762,0,100,WaitForContact,-)
     AddUnit(78,48,0631,0,100,PatrolUnit,-)
     AddUnit(79,48,2866,0,100,PatrolUnit,-)
     AddUnit(80,37,4100,0,100,WaitForContact,-)
@@ -35,6 +27,12 @@ MissionData {
     AddUnit(83,37,1306,0,100,WaitForContact,-)
     AddUnit(84,37,1251,0,100,WaitForContact,-)
     AddUnit(85,38,0946,0,100,WaitForContact,-)
+    AddUnit(86,55,1000,0,10,WaitForContact,-)
+    AddUnit(87,55,1435,0,10,WaitForContact,-)
+    AddUnit(88,38,1328,0,100,WaitForContact,-)
+    AddUnit(89,38,1329,0,100,WaitForContact,-)
+    AddUnit(90,38,1165,0,100,WaitForContact,-)
+    AddUnit(91,38,1166,0,100,WaitForContact,-)
 
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddMissionObjective(SeePlace,1110,Explore ork camp)
@@ -45,6 +43,8 @@ MissionData {
     AddStartSquare(4116,4117,4118,4119,4120,4169,4170,4171,4172,4173)
     AddStartSquare(4174,4175,4224,4225,4226,4227,4228,4229,4230,4280)
     AddStartSquare(4281,4282,4283,4284,4285,4335,4336,4337,4338,4339)
+    AddStartSquare(2396,2397,2341,2451,2452,2507,3104,3105,3050,3161)
+
     AddTargetSquare(1110)
 }
 
