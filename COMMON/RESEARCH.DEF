@@ -83,6 +83,7 @@ Item(7) {
     ORconnections(126)
     ORconnections(129)
     ORconnections(125)
+    ORconnections(180)
     UpgradePrice(250)
 }
 
@@ -1370,14 +1371,15 @@ Item(141) {
     UpgradePrice(190)
 }
 
-; Sniper - puska M82A1
+; Sniper - ATI-Scope
 Item(142) {
     Flags(UpgradeItem)
     Data(22)
     Group(Upgrades)
-    Time(20)
+    Time(15)
     Level(5)
     ORconnections(141)
+    ORconnections(180)
 }
 
 ; EM troopers
@@ -1731,3 +1733,12 @@ Item(178) {
 Item(179) {
     Flags(Special)
 }
+
+; advanced optics
+Item(180) {
+    Flags(Info)
+    Group(Technologies)
+    Time(10)
+    Level(4)
+}
+
