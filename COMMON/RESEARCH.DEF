@@ -1377,7 +1377,7 @@ Item(142) {
     Data(22)
     Group(Upgrades)
     Time(15)
-    Level(5)
+    Level(4)
     ORconnections(141)
     ORconnections(180)
 }
@@ -1404,14 +1404,14 @@ Item(144) {
     ORconnections(91)
 }
 
-; Laser strahler - Laser MK2
+; ATI-laser
 Item(145) {
     Flags(UpgradeItem)
     Data(24)
     Group(Upgrades)
-    Time(33)
-    Level(6)
-    ORconnections(33)
+    Time(20)
+    Level(4)
+    ORconnections(181)
 }
 
 ; Herkules
@@ -1742,3 +1742,12 @@ Item(180) {
     Level(4)
 }
 
+; advanced optics II
+Item(181) {
+    Flags(Info)
+    Group(Technologies)
+    Time(15)
+    Level(4)
+    ORconnections(180)
+    ORconnections(8)
+}
