@@ -250,7 +250,7 @@ Upgrade(14) {
 ;
 Upgrade(15) {
     Attack(4)
-    SuitableTypes(10,11,12,13)
+    SuitableTypes(10,11,12,13,22)
     Flags(Weapon)
     UpgradeTime(3)
     UpgradePrice(50)
