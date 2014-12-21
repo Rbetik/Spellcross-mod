@@ -1337,10 +1337,12 @@ Item(137) {
     Flags(UpgradeItem)
     Data(13)
     Group(Upgrades)
-    Time(21)
+    Time(40)
     ORconnections(124)
     ORconnections(125)
-    Level(6)
+    ORconnections(133)
+    ORconnections(181)
+    Level(8)
 }
 
 ; Dobytie mapy 11 v 9.leveli
@@ -1394,14 +1396,14 @@ Item(143) {
     UpgradePrice(300)
 }
 
-; M132 - Plamenomet MK2
+; tactical reconfig for MRLS
 Item(144) {
     Flags(UpgradeItem)
     Data(23)
     Group(Upgrades)
-    Time(28)
-    Level(5)
-    ORconnections(91)
+    Time(30)
+    Level(7)
+    ORconnections(99)
 }
 
 ; ATI-laser
