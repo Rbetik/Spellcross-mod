@@ -180,7 +180,7 @@ Event(10) {
 
 Event(11) {
     AbsTime(2)
-    EventText(E02_0001)
+    EventText(E02_0011)
 }
 
 Event(12) {
