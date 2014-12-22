@@ -66,6 +66,7 @@ Mission(M02_03A) {
     EndBadMission(M02_03B)
     EndBadEvent(10)
     EndOKEvent(9)
+    ;money, experience
     EndOK(50,20)
     FrequencyOfRandomAttacks(10,8)
 }
