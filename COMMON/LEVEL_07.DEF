@@ -88,6 +88,7 @@ Mission(M07_03A) {
     EndOKMission(none)
     EndBadMission(M07_03B)
     EndOKEvent(3)
+    EndOKEvent(5)
     EndOK(30,340)
     MissionMusic(mus04)
     FrequencyOfRandomAttacks(20,6)
@@ -97,6 +98,7 @@ Mission(M07_03B) {
     EndOKMission(none)
     EndBadMission(none)
     EndOKEvent(3)
+    EndOKEvent(5)
     EndOK(0,100)
     FrequencyOfRandomAttacks(20,6)
 }
@@ -122,7 +124,8 @@ Mission(M07_04B) {
 Mission(M07_05A) {
     EndOKMission(none)
     EndBadMission(none)
-    EndOKEvent(5)
+    EndOkEvent(6)
+    EndOkEvent(8)
     EndOK(80,400)
     MissionMusic(mus01)
     FrequencyOfRandomAttacks(20,6)
@@ -131,7 +134,8 @@ Mission(M07_05A) {
 Mission(M07_06A) {
     EndOKMission(none)
     EndBadMission(none)
-    EndOKEvent(5)
+    EndOkEvent(6)
+    EndOkEvent(8)
     EndOK(0,350)
     MissionMusic(mus01)
     FrequencyOfRandomAttacks(20,6)
@@ -148,7 +152,6 @@ Mission(M07_07A) {
 Mission(M07_08A) {
     EndOKMission(none)
     EndBadMission(none)
-    EndOKEvent(5)
     EndOK(100,450)
     FrequencyOfRandomAttacks(20,6)
 }
@@ -163,9 +166,6 @@ Mission(M07_09A) {
 Mission(M07_10A) {
     EndOKMission(none)
     EndBadMission(none)
-    EndOKEvent(6)
-    EndOKEvent(5)
-    EndOKEvent(8)
     EndOkEvent(17)
     EndOK(0,350)
     FrequencyOfRandomAttacks(20,6)
@@ -183,8 +183,6 @@ Mission(M07_11A) {
 Mission(M07_12A) {
     EndOKMission(none)
     EndBadMission(none)
-    EndOKEvent(6)
-    EndOkEvent(8)
     EndOkEvent(17)
     EndOK(150,500)
     FrequencyOfRandomAttacks(20,6)
