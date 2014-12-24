@@ -28,11 +28,11 @@ Upgrade(28) {
 ; ENGINE - Pioneer
 ;
 Upgrade(26) {
-    Range(2)
+    Range(5)
     Flags(Engine)
     SuitableTypes(24,28,6,21)
     UpgradeTime(3)
-    UpgradePrice(300)
+    UpgradePrice(400)
 }
 
 ;
