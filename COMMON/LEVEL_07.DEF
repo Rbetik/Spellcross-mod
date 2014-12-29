@@ -192,6 +192,7 @@ Mission(M07_13A) {
     EndOKMission(none)
     EndBadMission(none)
     EndOKEvent(18)
+    EndOKEvent(21)
     EndOK(300,500)
     MissionMusic(mus01)
     FrequencyOfRandomAttacks(20,6)
@@ -201,6 +202,7 @@ Mission(M07_13B) {
     EndOKMission(none)
     EndBadMission(M07_13A)
     EndOKEvent(18)
+    EndOKEvent(21)
     EndBADEvent(16)
     EndOK(300,500)
     MissionMusic(mus01)
@@ -345,14 +347,7 @@ Event(15) {
 Event(16) {
     ; after unsuccessfull mission M07_13A teritory 13
     EventText(E07_0016)
-    ;Draci
-    Army(64,64,64,64)
-    ;Wizards
-    Army(68,68,68,68)
-    ;Conjurers
-    Army(71,71,71,71)
-    ;Fortresses of terror
-    Army(65,65,65,65)
+    RunEvents(22)
 }
 Event(17) {
     ;Text o obrane uzemi 13
@@ -395,3 +390,13 @@ Event(21) {
     SetResearchFlag(182)
 }
 
+Event(22) {
+    ;Draci
+    Army(64,64,64,64)
+    ;Wizards
+    Army(68,68,68,68)
+    ;Conjurers
+    Army(71,71,71,71)
+    ;Fortresses of terror
+    Army(65,65,65,65)
+}
