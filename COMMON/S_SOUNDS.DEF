@@ -24,7 +24,7 @@
 8-RADAR
 
 ;[07] - nothing
-#
+8-JET1
 
 ;[08] - NEMRTVI -=> ZREVANIE
 8-NEMRT1
@@ -63,4 +63,3 @@
 8-SMPL5
 
 ;[20] - MOBILNA PECHOTA ( vzlet )
-8-JET1
