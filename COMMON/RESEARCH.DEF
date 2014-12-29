@@ -180,7 +180,7 @@ Item(16) {
     Time(39)
     Level(6)
     ORconnections(15)
-    UpgradePrice(180)
+    UpgradePrice(250)
 }
 
 ; Destructor 400
@@ -359,9 +359,8 @@ Item(33) {
     Group(Races)
     Time(30)
     Level(7)
-    ;todo
-    ;ORconnections(122)
-    ;ORconnections(123)
+    ORconnections(183)
+    ORconnections(4)
     UpgradePrice(1000)
 }
 
@@ -383,7 +382,7 @@ Item(35) {
     Time(27)
     Level(5)
     ORconnections(83)
-    UpgradePrice(166)
+    UpgradePrice(200)
 }
 
 ; UDES
@@ -394,7 +393,7 @@ Item(36) {
     Time(0)
     Level(0)
     ORconnections(35)
-    UpgradePrice(166)
+    UpgradePrice(200)
 }
 
 ; Orcs
@@ -1752,4 +1751,18 @@ Item(181) {
     Level(4)
     ORconnections(180)
     ORconnections(8)
+}
+
+; seein of mind control artefact (7_13)
+Item(182) {
+    Flags(Special)
+}
+
+; mind controll artefact
+Item(183) {
+    Flags(Info)
+    Group(Technologies)
+    Time(10)
+    Level(7)
+    ORconnections(182)
 }

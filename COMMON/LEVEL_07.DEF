@@ -389,3 +389,9 @@ Event(20) {
     Army(65,65,65,65)
 
 }
+
+Event(21) {
+    EventText(E07_0021)
+    SetResearchFlag(182)
+}
+
