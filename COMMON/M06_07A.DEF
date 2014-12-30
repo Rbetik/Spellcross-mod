@@ -62,19 +62,19 @@ MissionData {
 }
  
 EventData(1) {
-    AddSpecialUnit(EnemyUnit,77,4092,00,010,-)
+    AddSpecialUnit(EnemyUnit,20,4092,00,010,-)
 }
  
 EventData(2) {
-    AddSpecialUnit(EnemyUnit,77,4032,00,010,-)
+    AddSpecialUnit(EnemyUnit,20,4032,00,010,-)
 }
  
 EventData(3) {
-    AddSpecialUnit(EnemyUnit,76,4033,00,100,-)
+    AddSpecialUnit(EnemyUnit,3,4033,00,100,-)
 }
  
 EventData(4) {
-    AddSpecialUnit(EnemyUnit,76,3972,00,100,-)
+    AddSpecialUnit(EnemyUnit,5,3972,00,100,-)
 }
  
 EventData(5) {
@@ -101,7 +101,7 @@ EventData(10) {
     AddSpecialUnit(EnemyUnit,40,4717,00,100,-)
 }
 EventData(11) {
-    AddSpecialUnit(EnemyUnit,75,4778,00,100,-)
+    AddSpecialUnit(EnemyUnit,0,4778,00,100,-)
 }
 EventData(12) {
     EventText(u0607_01)
@@ -110,7 +110,7 @@ EventData(13) {
     AddSpecialUnit(EnemyUnit,40,2386,00,100,-)
 }
 EventData(14) {
-    AddSpecialUnit(EnemyUnit,75,2446,00,100,-)
+    AddSpecialUnit(EnemyUnit,0,2446,00,100,-)
 }
 EventData(15) {
     EventText(u0607_02)
