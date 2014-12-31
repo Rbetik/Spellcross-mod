@@ -1561,7 +1561,7 @@ Item(160) {
     ORconnections(23)
 }
 
-; Phoenix missile 
+; Phoenix missile
 Item(161) {
     Flags(UpgradeItem)
     Data(33)
@@ -1765,4 +1765,16 @@ Item(183) {
     Time(10)
     Level(7)
     ORconnections(182)
+}
+
+; armageddon
+Item(184) {
+    Flags(NewUnit)
+    Data(77)
+    Group(Races)
+    Time(80)
+    Level(7)
+    ORconnections(160)
+    ORconnections(125)
+    UpgradePrice(1500)
 }
