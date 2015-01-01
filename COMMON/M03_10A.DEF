@@ -32,11 +32,11 @@ EventData(3) {
 }
  
 EventData(4) {
-    AddSpecialUnit(MissionUnit,01,1480,00,100,-)
+    AddSpecialUnit(MissionUnit,01,1480,00,020,-)
 }
  
 EventData(5) {
-    AddSpecialUnit(EnemyUnit,60,370,00,020,-)
+    AddSpecialUnit(EnemyUnit,60,370,00,001,-)
 }
  
 EventData(6) {

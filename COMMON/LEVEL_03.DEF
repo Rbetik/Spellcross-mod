@@ -51,14 +51,11 @@ LevelInit {
 
     ;M113
     SetResearchFlag(18)
-    ;Marder
-    SetResearchFlag(19)
-    ;Piranha
+    ;piranha
     SetResearchFlag(20)
+
     LevelMusic(mus00)
-    ;End(13)
-    ;TODO remove
-    End(2)
+    End(13)
 }
 
 Mission(M03_02A) {
@@ -183,9 +180,17 @@ Mission(M03_09C) {
 }
 
 Mission(M03_10A) {
-    EndOKMission(none)
+    EndOKMission(M03_10B)
     EndBadMission(none)
     EndOK(0,50)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M03_10B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(100,50)
     MissionMusic(mus04)
     FrequencyOfRandomAttacks(20,4)
 }
@@ -225,10 +230,10 @@ Event(0) {
     AbsTime(-1)
     EventText(MSG0014)
     ;Tazka Pechota
-    AddUnitToPlayer(1,1,100,1.Tˆ‘k  pˆchota)
-    AddUnitToPlayer(1,1,100,2.Tˆ‘k  pˆchota)
+    AddUnitToPlayer(1,1,100,1.T??k? p?chota)
+    AddUnitToPlayer(1,1,100,2.T??k? p?chota)
     ;Lahka Pechota
-    AddUnitToPlayer(0,1,100,3.Lehk  pˆchota)
+    AddUnitToPlayer(0,1,100,3.Lehk? p?chota)
 }
 
 Event(1) {
