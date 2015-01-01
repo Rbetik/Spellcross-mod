@@ -23,7 +23,7 @@
 ;[06] - UNIVERSAL 1R-2R ( ROZLOZENIE )
 8-RADAR
 
-;[07] - nothing
+;[07] - MOBILNA PECHOTA ( vzlet )
 8-JET1
 
 ;[08] - NEMRTVI -=> ZREVANIE
@@ -63,3 +63,8 @@
 8-SMPL5
 
 ;[20] - MOBILNA PECHOTA ( vzlet )
+#
+
+;[21] - slizoid mnozeni
+8-SLIZ5
+
