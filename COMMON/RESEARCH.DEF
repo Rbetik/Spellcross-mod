@@ -1776,5 +1776,7 @@ Item(184) {
     Level(7)
     ORconnections(160)
     ORconnections(125)
+    ORconnections(124)
+    ORconnections(123)
     UpgradePrice(1500)
 }

@@ -23,6 +23,13 @@ Being equipped with this light weaponery adds a lot of
 mobility, on the other hand range is rather low. Thus
 best tactics is hit-and-run.
 
-The biggest advantage is ability to lay down suppressive 
-fire which holds enemy in place fearing to do anything.
-Tactical advantages of this may be huge.
+The biggest advantage is ability to lay down 
+suppressive fire which holds enemy in place fearing to
+do anything.  Tactical advantages of this may be huge.
+The range of this ability is the same as range of fire.
+On the battlefield it works as follows. When command
+to lay down suppressive fire is issued (button next 
+to the healing icon) rangers lay down suppressive fire
+against all units in range. Some enemies can escape 
+some are pinned down (this is determined by suddelties 
+in the terrain)(for all game purposes its random).
