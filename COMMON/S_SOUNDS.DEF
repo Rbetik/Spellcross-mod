@@ -6,7 +6,7 @@
 8-OHEAH1
 
 ;[01] - MOBILNA PECHOTA ( ZOSADNUTIE )
-8-JET2
+8-16SEL0
 
 ;[02] - UDES ( VYSUNUTIE VEZE )
 8-UDSOPN
@@ -23,8 +23,8 @@
 ;[06] - UNIVERSAL 1R-2R ( ROZLOZENIE )
 8-RADAR
 
-;[07] - MOBILNA PECHOTA ( vzlet )
-8-JET1
+;[07] - slizoid mnozeni
+8-SLIZ5
 
 ;[08] - NEMRTVI -=> ZREVANIE
 8-NEMRT1
@@ -65,6 +65,4 @@
 ;[20] - MOBILNA PECHOTA ( vzlet )
 #
 
-;[21] - slizoid mnozeni
-8-SLIZ5
 
