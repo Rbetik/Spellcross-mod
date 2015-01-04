@@ -1,9 +1,9 @@
 MissionData {
     MissionMap(M03_10)
 
-    AddUnit(1,60,370,0,10,WaitForContact,-)
-    AddUnit(2,60,371,0,10,WaitForContact,-)
-    AddUnit(3,60,372,0,10,WaitForContact,-)
+    AddUnit(50,60,370,0,10,WaitForContact,-)
+    AddUnit(51,60,371,0,10,WaitForContact,-)
+    AddUnit(52,60,372,0,10,WaitForContact,-)
 
     AddMissionObjective(DestroyAllUnits,Kill the slimes)
 

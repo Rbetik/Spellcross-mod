@@ -18,7 +18,7 @@ MissionData {
     AddStartSquare(3374,3375,3376,3378,3379,3398,3399,3400,3401,3402)
     AddStartSquare(3403,3404,3405,3406,3407,3408,3409,3427,3428,3429)
     AddStartSquare(3430,3431,3432,3433,3434,3435,3436,3437,3438)
-    AddTargetSquare(2409)
+    AddTargetSquare(2288,1402,1480,370)
 }
  
 EventData(1) {
