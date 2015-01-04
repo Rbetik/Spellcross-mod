@@ -3,13 +3,15 @@ MissionData {
     AddMissionObjective(SeePlace,2288,Find soldiers )
     AddMissionObjective(SeePlace,1402,Find soldiers )
     AddMissionObjective(SeePlace,1480,Find soldiers )
-    AddMissionObjective(SeePlace,370,Find soldiers )
+    AddMissionObjective(SeePlace,370,Explore the area)
+
     AddSpecialEvent(SeePlace,2288,01,100%)
     AddSpecialEvent(SeePlace,1402,02,100%)
     AddSpecialEvent(SeePlace,1480,03,100%)
     AddSpecialEvent(SeePlace,1480,04,100%)
     AddSpecialEvent(SeePlace,370,05,100%)
     AddSpecialEvent(SeePlace,370,06,100%)
+
     AddStartSquare(3194,3224,3225,3253,3254,3280,3283,3284,3285,3309)
     AddStartSquare(3310,3312,3313,3314,3315,3339,3340,3341,3342,3343)
     AddStartSquare(3344,3345,3346,3349,3368,3369,3370,3371,3372,3373)

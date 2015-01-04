@@ -182,6 +182,7 @@ Mission(M03_09C) {
 Mission(M03_10A) {
     EndOKMission(M03_10B)
     EndBadMission(none)
+    EndOKEvent(14)
     EndOK(0,50)
     MissionMusic(mus04)
     FrequencyOfRandomAttacks(20,4)
@@ -324,4 +325,8 @@ Event(12) {
 
 Event(13) {
     EventText(E03_0013)
+}
+
+Event(14) {
+    EventText(E03_0014)
 }
