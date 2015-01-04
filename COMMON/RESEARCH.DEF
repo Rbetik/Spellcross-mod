@@ -610,7 +610,7 @@ Item(60) {
     Data(60)
     Group(Races)
     Time(30)
-    Level(8)
+    Level(3)
 }
 
 ; Wolf Riders
