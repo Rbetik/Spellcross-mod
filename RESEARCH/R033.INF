@@ -6,9 +6,17 @@ send to much longer distances. The device is very
 expensive and rare, however this is tactical super
 weapon. It can paralyze many units at once.!!!
 
-This abiliey works as follows:
+This abilities works in two ways:
+
+Their special ability:
 When command to mind controll issued (button next 
 to the healing icon) mind desruptor tries to mind
  controll all units in range. Some enemies resist it 
 some get paralyzed. (for all game purposes its random).
 The range of this ability is the same as attack range.
+
+or with its regular attack:
+Mind desruptor can paralyze single selected target.
+Each successive attackt 'steals' action point of unit
+for next round. It works even against stronges 
+enemy mages and battle contraptions.

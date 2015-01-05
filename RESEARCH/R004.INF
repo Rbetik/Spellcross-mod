@@ -9,9 +9,17 @@ they can mind controll enemy unit for short period of
 time rendering it paralyzed for a period of time.
 This ability could prove priceless in the battlefield!!
 
-This abiliey works as follows:
+This abilities works in two ways:
+
+Their special ability:
 When command to mind controll issued (button next 
 to the healing icon) psi-soldiers try to mind controll
 all units in range. Some enemies resist it some get 
 paralyzed. (for all game purposes its random).
 The range of this ability is the same as attack range.
+
+or with their regular attack:
+they can paralyze single selected target.
+Each successive attackt 'steals' action point of unit
+for next round. However stronger enemy units
+can be resistant towards it.
