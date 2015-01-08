@@ -30,8 +30,13 @@ MissionData {
     AddUnit(77,38,2378,0,100,WaitForContact,-)
     AddUnit(78,38,1655,0,100,WaitForContact,-)
     AddUnit(79,38,1595,0,100,WaitForContact,-)
+
     AddMissionObjective(DestroyAllUnits,Zni?en? v?ech jednotek)
-    ;AddMissionObjective(SeePlace,3073,Explore ork camp)
+    AddMissionObjective(SaveUnit,48, save civilians)
+
+    AddSpecialEvent(SeePlace,1241,01,100%)
+    AddSpecialEvent(SeePlace,1241,02,100%)
+
     AddStartSquare(3073,3132,3192,3193,3251,3252,3311,3312,3313,3370)
     AddStartSquare(3371,3372,3430,3431,3432,3433,3487,3489,3490,3491)
     AddStartSquare(3492,3547,3549,3550,3551,3552,3606,3608,3609,3610)
@@ -39,6 +44,14 @@ MissionData {
     AddStartSquare(3727,3728,3729,3730,3731,3787,3788,3789,3790,3791)
 }
  
+EventData(1) {
+    AddSpecialUnit(SpecUnit1,75,1241,4,100,civilians)
+}
+
+EventData(1) {
+    EventText(u0302_00)
+}
+
 MissionParameters {
     Time(t)
     MissionText(T03_02A)
