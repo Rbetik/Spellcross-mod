@@ -330,3 +330,11 @@ Event(13) {
 Event(14) {
     EventText(E03_0014)
 }
+Event(15) {
+    ; after seeing teritory 9 (with hapry nest)
+    WaitForTerritories(6)
+    WaitForTerritories(10)
+    EventText(E03_0015)
+    ;ChangeMission(14,M07_14A)
+    ;RunEvents(20)
+}
