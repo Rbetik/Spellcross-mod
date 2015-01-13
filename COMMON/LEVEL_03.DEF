@@ -116,6 +116,7 @@ Mission(M03_05C) {
 Mission(M03_06A) {
     EndOKMission(none)
     EndBadMission(none)
+    EndOKEvent(15)
     EndOK(0,60)
     MissionMusic(mus04)
     FrequencyOfRandomAttacks(20,4)
@@ -191,6 +192,7 @@ Mission(M03_10A) {
 Mission(M03_10B) {
     EndOKMission(none)
     EndBadMission(none)
+    EndOKEvent(15)
     EndOK(100,50)
     MissionMusic(mus04)
     FrequencyOfRandomAttacks(20,4)
@@ -330,10 +332,10 @@ Event(13) {
 Event(14) {
     EventText(E03_0014)
 }
+
 Event(15) {
     ; after seeing teritory 9 (with hapry nest)
-    WaitForTerritories(6)
-    WaitForTerritories(10)
+    ;WaitForTerritories(6)
     EventText(E03_0015)
     ;ChangeMission(14,M07_14A)
     ;RunEvents(20)
