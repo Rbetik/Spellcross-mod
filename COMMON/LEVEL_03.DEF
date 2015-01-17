@@ -176,7 +176,7 @@ Mission(M03_09B) {
 Mission(M03_09C) {
     EndOKMission(none)
     EndBadMission(none)
-    EndOK(80,500)
+    EndOK(400,500)
     FrequencyOfRandomAttacks(20,4)
 }
 

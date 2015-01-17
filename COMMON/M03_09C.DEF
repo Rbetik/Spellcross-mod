@@ -49,13 +49,50 @@ MissionData {
     AddUnit(96,50,2322,0,1,WaitForContact,-)
     AddUnit(97,50,2364,0,1,WaitForContact,-)
     AddUnit(98,50,1828,0,1,WaitForContact,-)
+
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
+    AddMissionObjective(SeePlace,1966, explore the caves)
+    AddMissionObjective(SeePlace,1778, explore the caves)
+
+    AddSpecialEvent(SeePlace,1966,01,100%)
+    AddSpecialEvent(SeePlace,1966,02,100%)
+    AddSpecialEvent(SeePlace,1778,03,100%)
+    AddSpecialEvent(SeePlace,1778,04,100%)
+
     AddStartSquare(3304,3354,3355,3403,3404,3405,3453,3454,3455,3456)
     AddStartSquare(3502,3503,3504,3505,3506,3552,3553,3554,3555,3556)
     AddStartSquare(3557,3601,3602,3603,3604,3605,3606,3607,3652,3653)
     AddStartSquare(3654,3655,3656,3657,3658,3702,3703,3704,3705,3706)
     AddStartSquare(3707,3753,3754,3755,3756,3757,3803,3804,3805,3806)
     AddStartSquare(3854,3855,3856,3904,3905,3955)
+    AddTargetSquare(1966, 1778)
+}
+
+EventData(1) {
+    EventText(u0309_01)
+}
+ 
+EventData(2) {
+    AddSpecialUnit(EnemyUnit,50,1966,0,100,-)
+    AddSpecialUnit(EnemyUnit,50,1966,0,100,-)
+    AddSpecialUnit(EnemyUnit,50,1966,0,100,-)
+    AddSpecialUnit(EnemyUnit,50,1966,0,100,-)
+    AddSpecialUnit(EnemyUnit,50,1966,0,100,-)
+    AddSpecialUnit(EnemyUnit,50,1966,0,100,-)
+    AddSpecialUnit(EnemyUnit,50,1966,0,100,-)
+}
+ 
+EventData(3) {
+    EventText(u0309_01)
+}
+ 
+EventData(4) {
+    AddSpecialUnit(EnemyUnit,50,1778,0,100,-)
+    AddSpecialUnit(EnemyUnit,50,1778,0,100,-)
+    AddSpecialUnit(EnemyUnit,50,1778,0,100,-)
+    AddSpecialUnit(EnemyUnit,50,1778,0,100,-)
+    AddSpecialUnit(EnemyUnit,50,1778,0,100,-)
+    AddSpecialUnit(EnemyUnit,50,1778,0,100,-)
 }
  
 MissionParameters {
