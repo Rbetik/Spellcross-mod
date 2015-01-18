@@ -231,12 +231,7 @@ Mission(M03_13A) {
 
 Event(0) {
     AbsTime(-1)
-    EventText(MSG0014)
-    ;Tazka Pechota
-    AddUnitToPlayer(1,1,100,1.T??k? p?chota)
-    AddUnitToPlayer(1,1,100,2.T??k? p?chota)
-    ;Lahka Pechota
-    AddUnitToPlayer(0,1,100,3.Lehk? p?chota)
+    EventText(E03_0000)
 }
 
 Event(1) {

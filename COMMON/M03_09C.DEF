@@ -73,13 +73,13 @@ EventData(1) {
 }
  
 EventData(2) {
-    AddSpecialUnit(EnemyUnit,50,1966,0,100,-)
-    AddSpecialUnit(EnemyUnit,50,1966,0,100,-)
-    AddSpecialUnit(EnemyUnit,50,1966,0,100,-)
-    AddSpecialUnit(EnemyUnit,50,1966,0,100,-)
-    AddSpecialUnit(EnemyUnit,50,1966,0,100,-)
-    AddSpecialUnit(EnemyUnit,50,1966,0,100,-)
-    AddSpecialUnit(EnemyUnit,50,1966,0,100,-)
+    AddSpecialUnit(EnemyUnit,50,1966,0,1,-)
+    AddSpecialUnit(EnemyUnit,50,1967,0,1,-)
+    AddSpecialUnit(EnemyUnit,50,1965,0,1,-)
+    AddSpecialUnit(EnemyUnit,50,1915,0,1,-)
+    AddSpecialUnit(EnemyUnit,50,1916,0,1,-)
+    AddSpecialUnit(EnemyUnit,50,1866,0,1,-)
+    AddSpecialUnit(EnemyUnit,50,2015,0,1,-)
 }
  
 EventData(3) {
@@ -87,12 +87,12 @@ EventData(3) {
 }
  
 EventData(4) {
-    AddSpecialUnit(EnemyUnit,50,1778,0,100,-)
-    AddSpecialUnit(EnemyUnit,50,1778,0,100,-)
-    AddSpecialUnit(EnemyUnit,50,1778,0,100,-)
-    AddSpecialUnit(EnemyUnit,50,1778,0,100,-)
-    AddSpecialUnit(EnemyUnit,50,1778,0,100,-)
-    AddSpecialUnit(EnemyUnit,50,1778,0,100,-)
+    AddSpecialUnit(EnemyUnit,50,1778,0,1,-)
+    AddSpecialUnit(EnemyUnit,50,1779,0,1,-)
+    AddSpecialUnit(EnemyUnit,50,1777,0,1,-)
+    AddSpecialUnit(EnemyUnit,50,1728,0,1,-)
+    AddSpecialUnit(EnemyUnit,50,1729,0,1,-)
+    AddSpecialUnit(EnemyUnit,50,1827,0,1,-)
 }
  
 MissionParameters {
