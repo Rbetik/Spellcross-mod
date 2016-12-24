@@ -21,7 +21,7 @@ MissionData {
     AddUnit(68,37,4975,0,100,WaitForContact,-)
     AddUnit(69,38,4589,0,100,WaitForContact,-)
     AddUnit(72,38,1250,0,100,WaitForContact,-)
-    AddUnit(73,60,2583,0,10,WaitForContact,-)
+    AddUnit(73,38,2583,0,10,WaitForContact,-)
     AddUnit(74,38,4183,0,50,WaitForContact,-)
     AddUnit(75,47,6451,0,100,WaitForContact,-)
     AddUnit(76,61,3585,0,20,WaitForContact,-)
@@ -174,7 +174,7 @@ EventData(21) {
  
 EventData(22) {
     ;lighInfantry
-    AddSpecialUnit(ArmyUnit,0,6828,04,8,-)
+    AddSpecialUnit(ArmyUnit,0,6828,04,80,-)
 }
 
 EventData(23) {
@@ -232,7 +232,8 @@ EventData(33) {
 }
  
 EventData(34) {
-    AddSpecialUnit(MissionUnit,3,1560,02,100,-)  
+    ;commando 
+    AddSpecialUnit(MissionUnit,3,1560,02,17,-)  
 }
  
 EventData(35) {
