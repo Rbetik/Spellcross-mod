@@ -14,8 +14,8 @@ MissionData {
     AddUnit(63,41,1613,0,20,WaitForContact,-)
     AddUnit(64,38,1909,0,100,NormalUnit,-)
     ;TODO only for debugging
-    AddMissionObjective(SeePlace,0637, save civilian)
-    ;AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
+    ;AddMissionObjective(SeePlace,0637, save civilian)
+    AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(0637,0682,0687,0726,0728,0730,0732,0771,0773,0775)
     AddStartSquare(0776,0778,0815,0817,0819,0820,0821,0823,0862,0864)
     AddStartSquare(0865,0866,0867,0906,0908,0909,0910,0911,0912,0952)
