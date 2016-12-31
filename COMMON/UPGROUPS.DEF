@@ -1,6 +1,6 @@
 
 UpgradeGroups {
-    UnitsToGroup(Infantry,0,1,2,3,4,5,7,9,87,88,89)
+    UnitsToGroup(Infantry,0,1,2,3,4,7,9,87,88,89)
     UnitsToGroup(Tanks,10,11,12,13,14,16,17,19,35,36,73)
     UnitsToGroup(Radars,30,31)
     UnitsToGroup(Artillery,23,24,25,26,27,28)

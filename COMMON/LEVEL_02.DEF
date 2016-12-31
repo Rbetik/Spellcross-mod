@@ -33,8 +33,6 @@ LevelInit {
     SetResearchFlag(0)
     ;Komanda
     SetResearchFlag(3)
-    ;Minometna pechota
-    SetResearchFlag(5)
     ;Lehke delo
     SetResearchFlag(25)
     ;Ostrelovac
